@@ -6,31 +6,31 @@ const Testimonials = () => {
       name: "Juan Martínez",
       position: "CEO de Innovatech",
       text: "Trabajar con [Nombre de la Empresa] ha sido una experiencia increíble. La calidad de su trabajo y su compromiso con los plazos de entrega son excepcionales. Altamente recomendados.",
-      image: "https://via.placeholder.com/100"
+      image: "https://static.vecteezy.com/system/resources/thumbnails/005/129/844/small_2x/profile-user-icon-isolated-on-white-background-eps10-free-vector.jpg"
     },
     {
       name: "Laura Gómez",
       position: "Directora de Operaciones en ConstruMax",
       text: "El equipo es muy profesional y siempre está enfocado en brindar la mejor calidad. Estamos muy satisfechos con los resultados de nuestro proyecto.",
-      image: "https://via.placeholder.com/100"
+      image: "https://static.vecteezy.com/system/resources/thumbnails/005/129/844/small_2x/profile-user-icon-isolated-on-white-background-eps10-free-vector.jpg"
     },
     {
       name: "Carlos López",
       position: "Gerente de Proyectos en Edifica",
       text: "La atención al detalle y la innovación en cada proyecto hacen que [Nombre de la Empresa] sea nuestra elección preferida para cualquier desarrollo de construcción.",
-      image: "https://via.placeholder.com/100"
+      image: "https://static.vecteezy.com/system/resources/thumbnails/005/129/844/small_2x/profile-user-icon-isolated-on-white-background-eps10-free-vector.jpg"
     },
     {
       name: "María Fernández",
       position: "Arquitecta en Modern Design",
       text: "Los proyectos que hemos completado con [Nombre de la Empresa] son excepcionales en calidad y estética. Recomiendo sus servicios sin dudarlo.",
-      image: "https://via.placeholder.com/100"
+      image: "https://static.vecteezy.com/system/resources/thumbnails/005/129/844/small_2x/profile-user-icon-isolated-on-white-background-eps10-free-vector.jpg"
     },
     {
       name: "Pedro Morales",
       position: "Director en BuildPro",
       text: "Han superado nuestras expectativas en cada etapa del proyecto. La atención al cliente es fenomenal.",
-      image: "https://via.placeholder.com/100"
+      image: "https://static.vecteezy.com/system/resources/thumbnails/005/129/844/small_2x/profile-user-icon-isolated-on-white-background-eps10-free-vector.jpg"
     }
   ];
 

@@ -3,10 +3,11 @@ import React from 'react';
 const About = () => (
   <section className="py-8 px-4">
     <h1 className="text-3xl font-bold text-center mb-8 text-blue-700">Sobre Nosotros</h1>
+    
     <div className="flex flex-col md:flex-row items-center mb-12">
       <div className="md:w-1/2 mb-6 md:mb-0">
         <img
-          src="https://images.pexels.com/photos/416405/pexels-photo-416405.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          src="https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           alt="Valores de la Compañía"
           className="w-full h-[400px] object-cover rounded shadow"
         />
@@ -20,6 +21,7 @@ const About = () => (
         </p>
       </div>
     </div>
+
     <div className="flex flex-col md:flex-row items-center mb-12">
       <div className="md:w-1/2 order-2 md:order-1 md:pr-8">
         <h2 className="text-2xl font-semibold text-blue-600 mb-4">Nuestro Compromiso</h2>
@@ -31,16 +33,17 @@ const About = () => (
       </div>
       <div className="md:w-1/2 order-1 md:order-2 mb-6 md:mb-0">
         <img
-          src="https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          src="https://images.pexels.com/photos/15193738/pexels-photo-15193738/free-photo-of-carretera-gente-arena-edificios.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           alt="Nuestro Compromiso"
           className="w-full h-[400px] object-cover rounded shadow"
         />
       </div>
     </div>
+
     <div className="flex flex-col md:flex-row items-center mb-12">
       <div className="md:w-1/2 mb-6 md:mb-0">
         <img
-          src="https://images.pexels.com/photos/15193738/pexels-photo-15193738/free-photo-of-carretera-gente-arena-edificios.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          src="https://images.pexels.com/photos/416405/pexels-photo-416405.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           alt="Nuestra Visión"
           className="w-full h-[400px] object-cover rounded shadow"
         />
@@ -53,6 +56,39 @@ const About = () => (
           y resilientes. Nuestra visión es transformar el paisaje urbano con proyectos que marquen
           la diferencia.
         </p>
+      </div>
+    </div>
+
+    <div className="mt-12">
+      <h2 className="text-2xl font-semibold text-blue-600 text-center mb-4">Nuestro Equipo</h2>
+      <div className="flex flex-wrap justify-center">
+        <div className="max-w-sm m-4 p-4 border rounded-lg shadow-lg">
+          <img
+            src="https://static.vecteezy.com/system/resources/thumbnails/005/129/844/small_2x/profile-user-icon-isolated-on-white-background-eps10-free-vector.jpg"
+            alt="Miembro del equipo"
+            className="w-full h-48 object-cover rounded mb-4"
+          />
+          <h3 className="text-xl font-semibold">Juan Pérez</h3>
+          <p className="text-gray-700">Gerente de Proyectos</p>
+        </div>
+        <div className="max-w-sm m-4 p-4 border rounded-lg shadow-lg">
+          <img
+            src="https://static.vecteezy.com/system/resources/thumbnails/005/129/844/small_2x/profile-user-icon-isolated-on-white-background-eps10-free-vector.jpg"
+            alt="Miembro del equipo"
+            className="w-full h-48 object-cover rounded mb-4"
+          />
+          <h3 className="text-xl font-semibold">María Gómez</h3>
+          <p className="text-gray-700">Diseñadora de Interiores</p>
+        </div>
+        <div className="max-w-sm m-4 p-4 border rounded-lg shadow-lg">
+          <img
+            src="https://static.vecteezy.com/system/resources/thumbnails/005/129/844/small_2x/profile-user-icon-isolated-on-white-background-eps10-free-vector.jpg"
+            alt="Miembro del equipo"
+            className="w-full h-48 object-cover rounded mb-4"
+          />
+          <h3 className="text-xl font-semibold">Pedro López</h3>
+          <p className="text-gray-700">Ingeniero Civil</p>
+        </div>
       </div>
     </div>
   </section>
